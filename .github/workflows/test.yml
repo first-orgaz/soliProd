@@ -6,4 +6,4 @@ jobs:
   printing:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Printing the name to test"
+      - run: echo "Printing the name for the test"
