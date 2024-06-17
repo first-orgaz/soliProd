@@ -1,0 +1,9 @@
+name: Testing migration with external repo
+
+on: [push, workflow_dispatch]
+
+jobs:
+  printing:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Printing the name to test"
